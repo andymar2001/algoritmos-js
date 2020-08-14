@@ -420,3 +420,35 @@ console.log(`Fueron necesarios ${cantidadLanzamientos} lanzamientos`); */
 // console.log(`Numero mayor: ${numeroMayor}`);
 // console.log(`Numero menor: ${numeroMenor}`);
 // console.log("FIN DEL PROGRAMA");
+
+/* 21 */
+
+// let numeroAleatorio = aleatorio(50, -50);
+// let numeroMayor = 0;
+// let numeroMenor = numeroAleatorio;
+// let valorBooleano = true;
+
+// do {
+//   if (numeroAleatorio == -25 || numeroAleatorio == 25) {
+//     valorBooleano = false;
+//     if (numeroAleatorio >= numeroMayor) {
+//       numeroMayor = numeroAleatorio;
+//     }
+//     if (numeroAleatorio <= numeroMenor) {
+//       numeroMenor = numeroAleatorio;
+//     }
+//   } else {
+//     console.log(`Numero generado ${numeroAleatorio}`);
+//     if (numeroAleatorio >= numeroMayor) {
+//       numeroMayor = numeroAleatorio;
+//     }
+//     if (numeroAleatorio <= numeroMenor) {
+//       numeroMenor = numeroAleatorio;
+//     }
+//     numeroAleatorio = aleatorio(50, -50);
+//   }
+// } while (valorBooleano);
+// console.log(`----------------------------------------------`);
+// console.log(`Numero generado ${numeroAleatorio}`);
+// console.log(`Numero mayor ${numeroMayor}`);
+// console.log(`Numero menor ${numeroMenor}`);
