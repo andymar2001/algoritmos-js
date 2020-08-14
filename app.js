@@ -452,3 +452,30 @@ console.log(`Fueron necesarios ${cantidadLanzamientos} lanzamientos`); */
 // console.log(`Numero generado ${numeroAleatorio}`);
 // console.log(`Numero mayor ${numeroMayor}`);
 // console.log(`Numero menor ${numeroMenor}`);
+
+/* 22 */
+
+// let notaAleatoria = aleatorio(20, 0);
+// let cantidadAlumnos = 40;
+// let sumaNotas = 0;
+// let promedioSeccion = 0;
+// let notaMaxima = 0;
+// let notaMinima = notaAleatoria;
+
+// for (let i = 0; i < cantidadAlumnos; i++) {
+//   console.log(`El alumno ${i + 1} tiene de nota ${notaAleatoria}`);
+//   sumaNotas += notaAleatoria;
+//   if (notaAleatoria >= notaMaxima) {
+//     notaMaxima = notaAleatoria;
+//   }
+//   if (notaAleatoria <= notaMinima) {
+//     notaMinima = notaAleatoria;
+//   }
+//   notaAleatoria = aleatorio(20, 0);
+// }
+// promedioSeccion = sumaNotas / cantidadAlumnos;
+// console.log(`---------------------------------------------------------`);
+// console.log(`Suma de todas las notas: ${sumaNotas}`);
+// console.log(`Promedio se la sección: ${promedioSeccion}`);
+// console.log(`Nota maxima: ${notaMaxima}`);
+// console.log(`Nota minima: ${notaMinima}`);
