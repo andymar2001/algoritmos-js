@@ -340,22 +340,25 @@ console.log(`Fueron necesarios ${cantidadLanzamientos} lanzamientos`); */
 
 // let numero = 1;
 // let suma = 0;
-// let valor = true;
-// for (let i = 1; i <= 4; i++) {
-//   valor = true;
-//   do {
-//     numero++;
+// let valorBooleano = true;
+
+// for (let i = 0; i < 4; i++) {
+//   valorBooleano = true;
+//   while (valorBooleano) {
 //     for (let j = 1; j <= numero / 2; j++) {
 //       if (numero % j == 0) {
 //         suma += j;
 //       }
 //     }
 //     if (suma == numero) {
-//       valor = false;
-//       console.log(`El numero perfecto es ${numero} con suma ${suma}`);
+//       valorBooleano = false;
 //       suma = 0;
+//       numero++;
 //     } else {
+//       valorBooleano = true;
 //       suma = 0;
+//       numero++;
 //     }
-//   } while (valor);
+//   }
+//   console.log(`El numero ${numero - 1} es perfecto`);
 // }
