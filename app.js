@@ -362,3 +362,13 @@ console.log(`Fueron necesarios ${cantidadLanzamientos} lanzamientos`); */
 //   }
 //   console.log(`El numero ${numero - 1} es perfecto`);
 // }
+
+/* 19 */
+
+// let limiteNumero = 9;
+// console.log(`N\t\t10(1)*N\t\t10(2)*N\t\t10(3)*N\t\t10(4)*N`);
+// for (let i = 1; i <= limiteNumero; i++) {
+//   console.log(
+//     `${i}\t\t  ${i * 10}\t\t ${i * 100}\t\t${i * 1000}\t\t${i * 10000}`
+//   );
+// }
