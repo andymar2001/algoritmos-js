@@ -372,3 +372,51 @@ console.log(`Fueron necesarios ${cantidadLanzamientos} lanzamientos`); */
 //     `${i}\t\t  ${i * 10}\t\t ${i * 100}\t\t${i * 1000}\t\t${i * 10000}`
 //   );
 // }
+
+/* 20 */
+
+// let numeroAletario = aleatorio(900, 100);
+// let suma = 0;
+// let numeroMayor = 0;
+// let numeroMenor = numeroAletario;
+// let valorBooleano = true;
+
+// const comprobarMayorMenor = () => {
+//   if (numeroAletario > numeroMayor) {
+//     numeroMayor = numeroAletario;
+//   }
+//   if (numeroAletario <= numeroMenor) {
+//     numeroMenor = numeroAletario;
+//   }
+// };
+
+// do {
+//   if (numeroAletario % 2 == 0) {
+//     if (numeroAletario < 300 || numeroAletario > 700) {
+//       valorBooleano = false;
+//       suma += numeroAletario;
+//       comprobarMayorMenor();
+//     } else {
+//       console.log(
+//         `El numero ${numeroAletario} es par, pero no es menor que 300 ó mayor de 700`
+//       );
+//       suma += numeroAletario;
+//       comprobarMayorMenor();
+//       numeroAletario = aleatorio(900, 100);
+//     }
+//   } else {
+//     console.log(`El numero ${numeroAletario} no es par`);
+//     suma += numeroAletario;
+//     comprobarMayorMenor();
+//     numeroAletario = aleatorio(900, 100);
+//   }
+// } while (valorBooleano);
+
+// console.log(`==============================================================`);
+// console.log(
+//   `El numero ${numeroAletario} es par, tambien es menor que 300 ó mayor de 700`
+// );
+// console.log(`Suma de numeros: ${suma}`);
+// console.log(`Numero mayor: ${numeroMayor}`);
+// console.log(`Numero menor: ${numeroMenor}`);
+// console.log("FIN DEL PROGRAMA");
