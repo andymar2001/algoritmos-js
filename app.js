@@ -496,3 +496,17 @@ console.log(`Fueron necesarios ${cantidadLanzamientos} lanzamientos`); */
 //   notaAleatorio = aleatorio(20, 0);
 //   asteriscos = "";
 // }
+
+/* 24 */
+
+// let cantidadDivisores = 0;
+
+// for (let i = 2; i <= 100; i++) {
+//   for (let j = 1; j <= i; j++) {
+//     if (i % j == 0) {
+//       cantidadDivisores++;
+//     }
+//   }
+//   console.log(`El numero ${i} tiene ${cantidadDivisores} divisores`);
+//   cantidadDivisores = 0;
+// }
