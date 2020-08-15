@@ -479,3 +479,20 @@ console.log(`Fueron necesarios ${cantidadLanzamientos} lanzamientos`); */
 // console.log(`Promedio se la sección: ${promedioSeccion}`);
 // console.log(`Nota maxima: ${notaMaxima}`);
 // console.log(`Nota minima: ${notaMinima}`);
+
+/* 23 */
+
+// let cantidadAlumnos = 10;
+// let notaAleatorio = aleatorio(20, 0);
+// let asteriscos = "";
+
+// console.log(`Nota\t\tHistograma`);
+
+// for (let i = 0; i < cantidadAlumnos; i++) {
+//   for (let j = 0; j < notaAleatorio; j++) {
+//     asteriscos += "*";
+//   }
+//   console.log(`${notaAleatorio}\t\t${asteriscos}`);
+//   notaAleatorio = aleatorio(20, 0);
+//   asteriscos = "";
+// }
