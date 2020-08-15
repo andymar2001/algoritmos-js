@@ -510,3 +510,14 @@ console.log(`Fueron necesarios ${cantidadLanzamientos} lanzamientos`); */
 //   console.log(`El numero ${i} tiene ${cantidadDivisores} divisores`);
 //   cantidadDivisores = 0;
 // }
+
+/* 25 */
+
+let numeros = "";
+for (let i = 1; i <= 100; i++) {
+  numeros += i + "\t";
+  if (i % 10 == 0) {
+    console.log(numeros);
+    numeros = "";
+  }
+}
