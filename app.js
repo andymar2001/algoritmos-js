@@ -559,6 +559,23 @@ console.log(`Fueron necesarios ${cantidadLanzamientos} lanzamientos`); */
 // console.log(`----------------------------------`);
 // console.log(`Suma de numero : ${suma}`);
 
+/* 28 */
 
+// let numeroVeces = 6;
+// let numerador = 4;
+// let denominador = 1;
+// let suma = 0;
 
+// for (let i = 1; i <= numeroVeces; i++) {
+//   if (i % 2 == 0) {
+//     console.log(`-${numerador}/${denominador}`);
+//     suma-=numerador/denominador
+//   } else {
+//     console.log(`${numerador}/${denominador}`);
+//     suma+=numerador/denominador
+//   }
+//   denominador += 2;
+// }
 
+// console.log(`-------------------------------------------`);
+// console.log(`Suma de numeros: ${suma}`);
