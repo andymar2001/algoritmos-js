@@ -579,3 +579,13 @@ console.log(`Fueron necesarios ${cantidadLanzamientos} lanzamientos`); */
 
 // console.log(`-------------------------------------------`);
 // console.log(`Suma de numeros: ${suma}`);
+
+/* 29 */
+
+// let cantidadMultiplos = 10;
+// let numeroAleatorio = aleatorio(100, 1);
+
+// console.log(`Primeros multiplos de ${numeroAleatorio}:`);
+// for (let i = 1; i <= cantidadMultiplos; i++) {
+//   console.log(`${numeroAleatorio * i}`);
+// }
