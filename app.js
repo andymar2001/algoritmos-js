@@ -543,4 +543,22 @@ console.log(`Fueron necesarios ${cantidadLanzamientos} lanzamientos`); */
 // console.log(`--------------------------------`);
 // console.log(`La suma de todos los numeros es ${suma}`);
 
+/* 27 */
+
+// let numeroVeces = 4;
+// let numerador = 1;
+// let denominador = 1;
+// let suma = 0;
+
+// for (let i = 1; i <= numeroVeces; i++) {
+//   console.log(`${numerador}/${denominador}`);
+//   suma += numerador / denominador;
+//   numerador += 5;
+//   denominador += 4;
+// }
+// console.log(`----------------------------------`);
+// console.log(`Suma de numero : ${suma}`);
+
+
+
 
