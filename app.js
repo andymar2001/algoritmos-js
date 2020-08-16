@@ -513,11 +513,32 @@ console.log(`Fueron necesarios ${cantidadLanzamientos} lanzamientos`); */
 
 /* 25 */
 
-let numeros = "";
-for (let i = 1; i <= 100; i++) {
-  numeros += i + "\t";
-  if (i % 10 == 0) {
-    console.log(numeros);
-    numeros = "";
+// let numeros = "";
+// for (let i = 1; i <= 100; i++) {
+//   numeros += i + "\t";
+//   if (i % 10 == 0) {
+//     console.log(numeros);
+//     numeros = "";
+//   }
+// }
+
+/* 26 */
+
+let numeroVeces = 4;
+let suma = 0;
+let numerador = 3;
+let acumulador = 3;
+
+for (let i = 1; i <= numeroVeces; i++) {
+  if (i % 2 == 0) {
+    console.log(`-${numerador}`);
+    numerador = numerador * -1;
+    numerador += acumulador;
+  } else {
+    console.log(`${numerador}`);
+    numerador += acumulador;
   }
+  suma += numerador;
+  acumulador += 2;
 }
+// console.log(`${suma}`);
