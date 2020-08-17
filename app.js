@@ -589,3 +589,26 @@ console.log(`Fueron necesarios ${cantidadLanzamientos} lanzamientos`); */
 // for (let i = 1; i <= cantidadMultiplos; i++) {
 //   console.log(`${numeroAleatorio * i}`);
 // }
+
+/* 30 */
+
+// let potencia = 5;
+// let base = 2;
+// let resultado = 1;
+
+// if (potencia < 0) {
+//   potencia *= -1;
+//   for (let i = 1; i <= potencia; i++) {
+//     resultado *= base;
+//   }
+//   console.log(`El numero ${base} elevado al ${potencia} es: 1/${resultado}`);
+// } else if (potencia == 0) {
+//   resultado = 1;
+//   console.log(`El numero ${base} elevado al ${potencia} es: ${resultado}`);
+// } else {
+//   for (let i = 1; i <= potencia; i++) {
+//     resultado *= base;
+//   }
+//   console.log(`El numero ${base} elevado al ${potencia} es: ${resultado}`);
+// }
+
