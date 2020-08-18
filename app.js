@@ -627,3 +627,19 @@ console.log(`Fueron necesarios ${cantidadLanzamientos} lanzamientos`); */
 //     divisor--;
 //   }
 // }
+
+/* 32 */
+
+// let numero = 11;
+// let cantidadDivisores = 0;
+
+// for (let i = 1; i <= numero; i++) {
+//   if (numero % i == 0) {
+//     cantidadDivisores++;
+//   }
+// }
+// if (cantidadDivisores <= 2) {
+//   console.log(`El numero ${numero} es primo`);
+// } else {
+//   console.log(`El numero ${numero} no es primo`);
+// }
