@@ -612,3 +612,18 @@ console.log(`Fueron necesarios ${cantidadLanzamientos} lanzamientos`); */
 //   console.log(`El numero ${base} elevado al ${potencia} es: ${resultado}`);
 // }
 
+/* 31 */
+
+// let numeroAleatorio = aleatorio(1000, 2);
+// let divisor = Math.round(numeroAleatorio / 2);
+// let variableControl = true;
+// while (variableControl) {
+//   if (numeroAleatorio % divisor == 0) {
+//     console.log(
+//       `El mayor divisor distinto de ${numeroAleatorio} es ${divisor}`
+//     );
+//     variableControl = false;
+//   } else {
+//     divisor--;
+//   }
+// }
