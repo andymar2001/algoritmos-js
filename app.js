@@ -643,3 +643,43 @@ console.log(`Fueron necesarios ${cantidadLanzamientos} lanzamientos`); */
 // } else {
 //   console.log(`El numero ${numero} no es primo`);
 // }
+
+/* 33 */
+
+let numeroAleatorio = aleatorio(1000, -1000);
+let valorBooleano = true;
+let contador = 0;
+let mayorPositivo = 0;
+let menorPositivo = 0;
+let mayorNegativo = numeroAleatorio;
+let menorNegativo = 0;
+
+do {
+  console.log(`${numeroAleatorio}`);
+  if (numeroAleatorio >= -500 && numeroAleatorio <= 500) {
+    valorBooleano = false;
+    console.log(`MAYOR QUE -500 Y MENOR QUE 500, NUMERO FINAL:`);
+    console.log(`${numeroAleatorio}`);
+  }
+  if (contador >= 100) {
+    console.log(`SE HIZO 100 INTENTOS, NUMERO FINAL:`);
+    console.log(`${numeroAleatorio}`);
+    valorBooleano = false;
+    contador--;
+  }
+
+  if (numeroAleatorio >= mayorPositivo) {
+    mayorPositivo = numeroAleatorio;
+  }
+  if (numeroAleatorio <= mayorNegativo) {
+    mayorNegativo = numeroAleatorio;
+  }
+
+  numeroAleatorio = aleatorio(1000, -1000);
+  contador++;
+} while (valorBooleano);
+
+console.log(`-----------------------------------------------------`);
+console.log(`Cantidad numeros generados: ${contador}`);
+console.log(`Mayor numero positivo: ${mayorPositivo}`);
+console.log(`Mayor numero negativo: ${mayorNegativo}`);
