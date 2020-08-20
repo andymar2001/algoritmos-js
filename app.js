@@ -684,6 +684,17 @@ console.log(`Fueron necesarios ${cantidadLanzamientos} lanzamientos`); */
 // console.log(`Mayor numero positivo: ${mayorPositivo}`);
 // console.log(`Mayor numero negativo: ${mayorNegativo}`);
 
+/* 37 */
+
+// let numeroNatural = 123456;
+// let numeroConvertido = numeroNatural.toString();
+// let suma = 0;
+
+// for (let i = 0; i < numeroConvertido.length; i++) {
+//   suma += parseInt(numeroConvertido[i]);
+// }
+// console.log(`La suma de cifras del numero ${numeroConvertido} es ${suma}`);
+
 /* 38 */
 
 // let numero = 1;
